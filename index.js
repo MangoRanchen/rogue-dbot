@@ -3,7 +3,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
   console.log(`I'm ready.`);
-  client.user.setPresence({ game: { name: `r!help | Gucci Gang!`, type: 0 }});
+  client.user.setPresence({ game: { name: `r!help | aw yeah fuck me dipper! so hard call me a santa wife!!`, type: 0 }});
 });
 
 const prefix = "r!";
